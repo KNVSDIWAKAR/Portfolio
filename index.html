@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Contact">Contact</a>
+      </div>
+    </header>
+    <section class="HomePage" id="Home">
+      <div class="content">
+        <div class="bio-content">
+          <div class="media-icons">
+            <a href="https://leetcode.com/u/DiwakarKancherla/"
+              ><i class="fa-solid fa-code"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/naga-v-shanmuka-diwakar-kancherla-3a831621a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="mailto:nagavshanmukadiwakarkancherla@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+
+            </a>
+            <a href="https://github.com/KNVSDIWAKAR"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <div>
+            <h2 class="text0">Hi, I'm Diwakar</h2>
+            <h2 class="text1">Web Developer</h2>
+            <h3 class="text2">
+              A final-year undergraduate engineering student at
+              <br />Vellore Institute of Technology <br />Engineering College ,
+              Vellore.
+            </h3>
+          </div>
+        </div>
+
+        <image class="image1" src="./assets/photo1.jpg"></image>
+      </div>
+    </section>
+    <section class="about" id="About">
+      <div class="text4">About Me</div>
+      <div class="content">
+        <div class="about-page">
+          <img class="photo2" src="./assets/photo1.jpg" alt="" />
+          <div class="about-content">
+            <h2 class="text2">Hey There! I'm Diwakar Kancherla</h2>
+            <p class="text5">
+              I am a final-year BTech Information Technology (IT) undergraduate
+              with a deep passion for technology and a self-motivated, can-do
+              attitude. I thrive in challenging and dynamic environments and am
+              eager to contribute my expertise while continuing to learn in a
+              professional setting that values innovation and growth. Passionate
+              about expanding my knowledge and skills, I am driven by a strong
+              desire to explore new technologies that align with my interests
+              and contribute to my professional development.
+            </p>
+            <a href="#" class="btn">Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Skills" id="Skills">
+      <h1 class="text4">My Skills</h1>
+      <div class="skill-content">
+        <div class="skill-content1">
+          <div class="box">Java</div>
+          <div class="box">Html</div>
+          <div class="box">Css</div>
+          <div class="box">Js</div>
+        </div>
+        <div class="skill-content1">
+          <div class="box">React</div>
+          <div class="box">Node</div>
+          <div class="box">Express</div>
+          <div class="box">MongoDb</div>
+        </div>
+        <div class="skill-content1">
+          <div class="box">Sql</div>
+          <div class="box">Postman</div>
+          <div class="box">Tailwind</div>
+          <div class="box">Git</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Projects" id="Projects">
+      <h1 class="text4">My Projects</h1>
+      <div class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/Inventory.png" alt="InventoryIQ" />
+            <div class="carousel-caption">
+              <h2>InventoryIQ (Online shopping platform for Gadgets)</h2>
+              <p>
+                InventoryIQ is an online shopping platform for gadgets, built
+                using React for the frontend.
+              </p>
+              <p>
+                Developed the backend of the gadgets store using Node.js and
+                Express.js.
+              </p>
+              <p>
+                Established user authentication with tokenization for secure
+                user sessions and implemented Role-Based Authentication.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/Quiz_App.jpeg" alt="Quiz Application" />
+            <div class="carousel-caption">
+              <h2>Quiz Application</h2>
+              <p>
+                Created a secure login system for faculty to manage quiz
+                questions.
+              </p>
+              <p>
+                Designed a system that gives students 5 random questions each
+                time they take a quiz, making every quiz different.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="image3"
+              src="assets/Weather_App.jpeg"
+              alt="Weather Application"
+            />
+            <div class="carousel-caption">
+              <h2>Weather Application (Weather detection)</h2>
+              <p>
+                Created a responsive weather application in React, leveraging
+                OpenWeatherMap APIs for real-time weather data retrieval.
+              </p>
+              <p>
+                Implemented dynamic weather icons and displayed detailed weather
+                information including temperature, humidity, wind speed, feels
+                like temperature, and pressure.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" onclick="prevSlide()">
+          &#10094;
+        </button>
+        <button class="carousel-control-next" onclick="nextSlide()">
+          &#10095;
+        </button>
+      </div>
+    </section>
+
+    <section class="Experience" id="Experience">
+      <h1 class="text4">My Experience</h1>
+      <div class="timeline">
+        <ul>
+          <li>
+            <div class="content1">
+              <h3>Frontend Developer at Vidrona</h3>
+              <p>
+                Developed dashboards and visualizations, built messaging
+                platform facilitating seamless interaction and alert systems
+                using firebase
+              </p>
+            </div>
+            <div class="time">
+              <h4>May 2024</h4>
+            </div>
+          </li>
+
+          <li>
+            <div class="content1">
+              <h3>First project</h3>
+              <p>
+                Developed an Inventory Management System enabling users to
+                seamlessly create, update, and delete products with ease.
+              </p>
+            </div>
+            <div class="time">
+              <h4>August 2023</h4>
+            </div>
+          </li>
+          <li>
+            <div class="content1">
+              <h3>VicePresident</h3>
+              <p>
+                Just leveled up to Vice President of the Zero Waste Management
+                Club! 🌱 Had an amazing experience leading green initiatives and
+                making a sustainable impact. 🌍✨
+              </p>
+            </div>
+            <div class="time">
+              <h4>March 2023</h4>
+            </div>
+          </li>
+
+          <li>
+            <div class="content1">
+              <h3>Branch Migration</h3>
+              <p>
+                I've swapped circuits for code! 🎉 Made the leap from
+                Electronics and Communication Engineering to Information
+                Technology. Ready to debug the digital world and innovate like
+                never before! 🚀💻
+              </p>
+            </div>
+            <div class="time">
+              <h4>July 2022</h4>
+            </div>
+          </li>
+
+          <li>
+            <div class="content1">
+              <h3>ZWM Core Commitee Member</h3>
+              <p>Worked as a management domain member in the student club.</p>
+            </div>
+            <div class="time">
+              <h4>March 2022</h4>
+            </div>
+          </li>
+
+          <li>
+            <div class="content1">
+              <h3>&lt/&gt</h3>
+              <p>Coded my first Hellow! world program</p>
+            </div>
+            <div class="time">
+              <h4>October 2021</h4>
+            </div>
+          </li>
+
+          <li>
+            <div class="content1">
+              <h3>Joined VIT as Undergraduate</h3>
+              <p>
+                Hey, On September 13, my birthday, I had the incredible
+                experience of starting my B.Tech studies in Electronics and
+                Communication Engineering
+              </p>
+            </div>
+            <div class="time">
+              <h4>September 2021</h4>
+            </div>
+          </li>
+          <div style="clear: both"></div>
+        </ul>
+      </div>
+    </section>
+    <section class="Contact" id="Contact">
+      <div class="contactme">
+        <div class="media-icons1">
+          <a href="https://leetcode.com/u/DiwakarKancherla/"
+          ><i class="fa-solid fa-code"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/naga-v-shanmuka-diwakar-kancherla-3a831621a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="mailto:nagavshanmukadiwakarkancherla@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+
+        </a>
+        <a href="https://github.com/KNVSDIWAKAR"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        </div>
+        <div class="contact-container">
+          <h2 class="contat">Contact Me</h2>
+          <form action="" method="POST" onsubmit="redirectToHome(event)">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function redirectToHome(event) {
+        event.preventDefault();
+        window.location.href = "/";
+      }
+    </script>
+    <script>
+      let currentIndex = 0;
+
+      function showSlide(index) {
+        const slides = document.querySelectorAll(".carousel-item");
+        slides.forEach((slide, i) => {
+          if (i === index) {
+            slide.classList.add("active");
+          } else {
+            slide.classList.remove("active");
+          }
+        });
+      }
+
+      function nextSlide() {
+        const slides = document.querySelectorAll(".carousel-item");
+        currentIndex = (currentIndex + 1) % slides.length;
+        showSlide(currentIndex);
+      }
+
+      function prevSlide() {
+        const slides = document.querySelectorAll(".carousel-item");
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        showSlide(currentIndex);
+      }
+
+      // Initial display
+      showSlide(currentIndex);
+    </script>
+
+    <footer class="footer"></footer>
+    <script src="index.js" charset="UTF-8"></script>
+  </body>
+</html>
